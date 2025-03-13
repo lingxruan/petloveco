@@ -1,0 +1,59 @@
+/* Profile details */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-details {
+    width: 60%; 
+    margin-bottom: 20px;
+  }
+  .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button[name="update"] {
+  background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  align-items: center;
+}
+
+button[name="update"]:hover {
+  background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .profile-details {
+      width: 20%;
+  }
+  .post-container {
+      min-width: 85%;
+  }
+}
+
+
+  /* Post Form */
+  .post-container {
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 20px;
+  
+  }
+  .post-container form {
+  border: 1px solid;
+  border-image: linear-gradient(115deg, #3cc5d7, #47d794, #3498db) 1;
+  padding: 20px;
+  margin-left: 20px;
+}

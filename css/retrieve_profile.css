@@ -1,0 +1,74 @@
+.post-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+/* CSS for post-home */
+.post-home {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 550px;
+    width: 100%;
+    margin-top: 20px;
+}
+/* Style for profile image */
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for posted by container */
+.posted-by-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Style for ellipsis container */
+.ellipsis-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for ellipsis icon */
+.ellipsis-icon {
+    margin-left: 10px; /* Adjust as needed */
+}
+
+/* Style for post description */
+.post-post_desc {
+    margin-bottom: 10px;
+}
+
+/* Style for post media */
+.post-media {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Style for post options */
+.post-options {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for post action icons */
+.post-action-icons {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #606770;
+}
+
+/* Style for post action icons on hover */
+.post-action-icons:hover {
+    color: #1877f2;
+}

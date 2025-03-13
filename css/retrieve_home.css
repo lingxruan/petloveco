@@ -1,0 +1,122 @@
+    /* CSS to ensure modal visibility */
+    .modal { z-index: 1051; }
+    .welcome-message-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+
+  .welcome-message p {
+    margin: 0; 
+  }
+
+  .create-post-btn {
+  background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+  color: white; 
+  border: none; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.create-post-btn:hover {
+  background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+}
+
+.create-post-btn i {
+  margin-right: 5px;
+}
+.report-btn {
+    background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .report-btn:hover {
+    background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+  }
+
+/* Style for each individual post */
+.post_home {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 550px; 
+    width: 100%; 
+}
+
+/* Style for profile image */
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for posted by container */
+.posted-by-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style for post description */
+.post-post_desc {
+    margin-bottom: 10px;
+}
+
+/* Style for post media */
+.post-media {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Style for post options */
+.post-options {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for post action icons */
+.post-action-icons {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #606770;
+}
+
+/* Style for post action icons on hover */
+.post-action-icons:hover {
+    color: #1877f2;
+}
+/* Style for News and Updates Section */
+.posts-section {
+    width: calc(100% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.post-container {
+    width: 100%; 
+    max-width: 550px; 
+    margin-bottom: 20px; 
+}

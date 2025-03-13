@@ -1,0 +1,161 @@
+
+.header {
+    padding: 10px 20px;
+    background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+    color: #fff;
+    font-weight: bold;
+}
+    .header-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+  }
+  
+  .header-brand img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .ml-auto {
+    margin-left: auto !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sidebarCollapse {
+    margin-right: 20px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  #sidebarCollapse:focus {
+    outline: none;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    width: 250px;
+    background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+    padding-top: 60px;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
+  
+  .sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+  }
+  
+  .sidebar ul p {
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+    color: white;
+    font-weight: bold;
+  }
+  
+  .close-sidebar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .sidebar-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 1040;
+    display: none;
+  }
+  
+  .search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: calc(100% - 20px);
+    padding: 8px 30px 8px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    width: calc(100% - 40px);
+    outline: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    min-width: 150px;
+  }
+  
+  .sidebar {
+    background-color: #fff;
+  }
+  
+  .sidebar a {
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    color: #555;
+  }

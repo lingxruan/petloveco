@@ -1,0 +1,49 @@
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  #postFormContainer {
+    border: 2px solid;
+    border-image: linear-gradient(115deg, #3cc5d7, #47d794, #3498db) 1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .user-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+    padding-top: 10px;
+  }
+  .post-container form {
+    border: 1px solid;
+    border-image: linear-gradient(115deg, #3cc5d7, #47d794, #3498db) 1;
+    padding: 20px;
+  }
+
+ .btn {
+    background: linear-gradient(115deg, #3cc5d7, #47d794, #3498db);
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background: linear-gradient(90deg, rgba(60, 197, 215, 0.5), rgba(71, 215, 148, 0.5));
+    color: white;
+    font-weight: bold;
+  }
+  
